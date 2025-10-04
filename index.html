@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -21,7 +21,7 @@
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#portfolio">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#testimonial">Testimonial</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -39,7 +39,7 @@
         </div>
         <div class="hero-img">
           <img
-            src="photo_2025-04-11_16-33-50.jpg"
+            src="resourses/photo_2025-04-11_16-33-50.jpg"
             alt="Profile Photo"
           />
           <div class="social-links">
@@ -64,37 +64,37 @@
     <section id="skills" class="skills container">
       <h2>My Skills</h2>
       <div class="skills-grid">
-        <img src="html.png" alt="html5" />
-        <img src="css3.jpeg" alt="css3" />
-        <img src="javascript.png" alt="javascript" />
-        <img src="react.js.png" alt="react" />
-        <img src="pyton.jpeg" alt="pyton" />
-        <img src="java.png" alt="java" />
-        <img src="js.png" alt="js" />
-        <img src="php.png" alt="js" />
-        <img src="sql.png" alt="sql" />
-        <img src="cpp.png" alt="cpp" />
+        <img src="resourses/html.png" alt="html5" />
+        <img src="resourses/css3.jpeg" alt="css3" />
+        <img src="resourses/javascript.png" alt="javascript" />
+        <img src="resourses/react.js.png" alt="react" />
+        <img src="resourses/pyton.jpeg" alt="pyton" />
+        <img src="resourses/java.png" alt="java" />
+        <img src="resourses/js.png" alt="js" />
+        <img src="resourses/php.png" alt="js" />
+        <img src="resourses/sql.png" alt="sql" />
+        <img src="resourses/cpp.png" alt="cpp" />
       </div>
     </section>
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio container">
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <div class="portfolio-grid">
         <div class="portfolio-item">
-          <img src="apple webbsite.png" alt="Apple website" />
+          <img src="resourses/apple webbsite.png" alt="Apple website" />
         </div>
         <div class="portfolio-item">
           <img
-            src="Bank management.png"
+            src="resourses/Bank management.png"
             alt="Bank Managment System"
           />
         </div>
         <div class="portfolio-item">
-          <img src="movie ticket.jpeg" alt="Movie Ticket Booking" />
+          <img src="resourses/movie ticket.jpeg" alt="Movie Ticket Booking" />
         </div>
         <div class="portfolio-item">
           <img
-            src="real estate.jpeg"
+            src="resourses/real estate.jpeg"
             alt="Real estate Managment System"
           />
         </div>
@@ -131,7 +131,7 @@
         excellent quality. Highly recommended.”
       </blockquote>
       <div class="testimonial-author">
-        <img src="Ceo of softmedia.jpeg" alt="Client Photo" />
+        <img src="resourses/Ceo of softmedia.jpeg" alt="Client Photo" />
         <p>Joel Howard, CEO of SoftMedia</p>
       </div>
     </section>
@@ -144,9 +144,9 @@
       </p>
       <p>
         Phone:
-        <h5>+251973391342</h5>
-        <h5>+251952365136</h5>
-        <h5>+251799489650</h5>
+        <li>+251973391342</li>
+        <li>+251952365136</li>
+        <li>+251799489650</li>
       </p>
       <p>Location: Adama, Ethiopia</p>
       <div class="social-footer">
@@ -154,10 +154,17 @@
         <a href="#">GitHub</a>
         <a href="#">Twitter</a>
       </div>
+      <div class="comment">
+        <h4>If you have any advice comment below</h4>
+        <input type="text" alt="Any advice" />
+        <button onclick="alert('Comment submitted succesfuly,Thank you')">
+          SUBMITE
+        </button>
+      </div>
     </section>
     <footer class="footer">
       <p>“Thanks for Scrolling”</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
