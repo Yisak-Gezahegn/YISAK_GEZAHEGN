@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://yisakgezahegn.github.io/</loc>
+    <lastmod>2025-10-25</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Portfolio Page -->
+  <url>
+    <loc>https://yisakgezahegn.github.io/index2.html</loc>
+    <lastmod>2025-10-25</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Add more pages if you create them -->
+  <url>
+    <loc>https://yisakgezahegn.github.io/about.html</loc>
+    <lastmod>2025-10-25</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>
