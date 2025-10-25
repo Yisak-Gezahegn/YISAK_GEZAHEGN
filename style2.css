@@ -290,3 +290,141 @@ footer {
   vertical-align: top;
   font-size: 100%;
 }
+
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-img img {
+    width: 200px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline {
+    padding-left: 1rem;
+  }
+
+  .testimonial-author img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .social-footer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .timeline {
+    padding-left: 1.2rem;
+  }
+
+  .testimonial blockquote {
+    font-size: 0.95rem;
+  }
+
+  .social-footer {
+    flex-wrap: wrap;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero-text h1 {
+    font-size: 2.3rem;
+  }
+
+  .hero-img img {
+    width: 280px;
+  }
+}
+
+
+@media (min-width: 1201px) {
+  body {
+    font-size: 17px;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.8rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
