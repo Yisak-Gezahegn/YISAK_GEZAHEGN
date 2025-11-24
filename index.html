@@ -158,14 +158,18 @@
         <a href="#">Twitter</a>
       </div>
       <div class="comment">
-        <h4>Send me a message</h4>
-        <input type="textarea" alt="Any advice" />
-        <button onclick="alert('Comment submitted succesfuly,Thank you')">
-          Submit
-        </button>
-        <!-- <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST"> -->
-          <!-- <button type="submit">Submit</button> -->
-        <!-- </form> -->
+        <form action="https://formspree.io/f/xldkerlg" method="POST">
+          <label for="message"
+            ><h4>Send me a message</h4>
+            <textarea name="message" alt="Any advice"></textarea>
+          </label>
+          <button
+            type="submit"
+            onclick="alert('Comment submitted succesfuly,Thank you')"
+          >
+            Submit
+          </button>
+        </form>
       </div>
     </section>
     <footer class="footer">
