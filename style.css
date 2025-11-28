@@ -122,17 +122,20 @@ section h2 {
 }
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 20px;
-  justify-items: center;
   margin-top: 20px;
+  width: 100%;
+  overflow-x: auto;
+ 
 }
-.skills-grid img{
- width: 100px;
- height: 100px;
- object-fit: contain;
- transition: transform 0.3s ease;
- cursor: pointer;
+
+.skills-row img {
+  height: 56px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 6px;
 }
 .skill-grid img:hover {
   transform:scale(1.2);
