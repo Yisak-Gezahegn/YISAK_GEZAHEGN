@@ -209,3 +209,22 @@ section h2 {
   padding: 1rem;
   margin-top: 2rem;
 }
+.reveal {
+  opacity: 10;
+  transform: translateY(30px); 
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.project-card {
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+}
